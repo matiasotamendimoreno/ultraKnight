@@ -33,6 +33,8 @@ namespace ultraKnight_v2
             Console.WriteLine(" 1) Lee bien lo que se presenta en pantalla, va a ser importante para avanzar. Recuerda que no podrás volver atrás. \r\n");
             Console.WriteLine(" 2) Al momento de colocar palabras utilizar sólo mayúsculas.");
             Console.WriteLine(" Fin de las reglas.");
+            Console.WriteLine();
+            Console.Write(" Enter. ");
             Console.ReadKey();
             Console.Clear();
             // Inicio de agregar el nombre del usuario.
@@ -49,6 +51,7 @@ namespace ultraKnight_v2
             Console.Write(" Eliges (Apretar número) ");
             tecla = Console.ReadKey();
             Console.WriteLine();
+            // Camino del dragón.
             if (tecla.Key == ConsoleKey.D1)
             {
                 Console.WriteLine();
@@ -81,9 +84,9 @@ namespace ultraKnight_v2
                     Console.WriteLine("");
                     Console.Write(" Eliges (Apretar número) ");
                     tecla = Console.ReadKey();
+                    Console.WriteLine();
                     if (tecla.Key == ConsoleKey.D1)
                     {
-                        Console.WriteLine();
                         Console.WriteLine(" [{0}]  ", nombre);
                         Console.WriteLine(" [1]");
                         Console.WriteLine(" [2]");
@@ -98,16 +101,21 @@ namespace ultraKnight_v2
                         Console.WriteLine(ultraKnight);
                         Console.WriteLine();
                         Console.WriteLine(" [{0}]  Sigue su camino a oscuras, no había más cristales adelante. Escucha un rugido y corre como pollo sin cabeza. Te golpeas con algo y pierdes el conocimiento. Tu destino fue sellado.", nombre);
+                        Console.WriteLine(" [Has muerto, tu final se ha plasmado ante ti. El caos sigue su curso, pero tú con él. La frustración de ni siquiera haber peleado con el dragón. Te vuelves un guerrero no muerto, ahora peleas contra quien se te plante por delante.]");
                         Console.WriteLine();
-                        Console.WriteLine(fin);
+                        Console.WriteLine(muerte);
                         Console.ReadKey();
                     }
 
                 }
             }
+            // Fin del camino del dragón.
+            // Camino del vampiro.
             if (tecla.Key == ConsoleKey.D2)
             {
             }
+            // Fin del camino de los vampiros.
+            // Camino de la casa.
             if (tecla.Key == ConsoleKey.D3)  
             {
                 Console.WriteLine();
