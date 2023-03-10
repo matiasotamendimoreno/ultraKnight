@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 //Console.WriteLine("");
 //Console.Write(" Eliges (Apretar número) ");
 //tecla = Console.ReadKey();
+//Console.WriteLine("");
 namespace ultraKnight_v2
 {
     internal class Program
@@ -82,15 +83,24 @@ namespace ultraKnight_v2
                     tecla = Console.ReadKey();
                     if (tecla.Key == ConsoleKey.D1)
                     {
-                        Console.Clear();
+                        Console.WriteLine();
+                        Console.WriteLine(" [{0}]  ", nombre);
+                        Console.WriteLine(" [1]");
+                        Console.WriteLine(" [2]");
                         Console.WriteLine("");
+                        Console.Write(" Eliges (Apretar número) ");
                         tecla = Console.ReadKey();
+                        Console.WriteLine("");
                     }
                     if (tecla.Key == ConsoleKey.D2)
                     {
-                        Console.Clear();
-                        Console.WriteLine("");
-                        tecla = Console.ReadKey();
+                        Console.WriteLine();
+                        Console.WriteLine(ultraKnight);
+                        Console.WriteLine();
+                        Console.WriteLine(" [{0}]  Sigue su camino a oscuras, no había más cristales adelante. Escucha un rugido y corre como pollo sin cabeza. Te golpeas con algo y pierdes el conocimiento. Tu destino fue sellado.", nombre);
+                        Console.WriteLine();
+                        Console.WriteLine(fin);
+                        Console.ReadKey();
                     }
 
                 }
