@@ -45,6 +45,8 @@ namespace ultraKnight_v2
             {
             }
             if (tecla.Key == ConsoleKey.D3)
+                Console.WriteLine(fin);
+                Console.ReadKey();
             {
             }
             // Fin de las rutas.
