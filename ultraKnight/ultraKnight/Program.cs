@@ -138,7 +138,7 @@ namespace ultraKnight
                         Console.WriteLine(" Has ido por la entrada principal y avanzado varios metros hasta encontrar la caverna. Allí, delante tuyo, se encuentra la gran bestia. ¿Qué decides?");
                         Console.WriteLine(" Gritar de miedo. [1]");
                         tecla = Console.ReadKey();
-                        if (tecla.Key == ConsoleKey.D2)
+                        if (tecla.Key == ConsoleKey.D1)
                         {
                             Console.Clear();
                             Console.WriteLine("           ###       ##                                ###                 ##              ###        ##");
