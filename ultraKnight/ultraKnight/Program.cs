@@ -76,7 +76,7 @@ namespace ultraKnight
                 Console.WriteLine(" ##  ##     ##       ## ##   ##      ##  ##             ## ##   ##  ##     ##      #####    ##  ##    ## ##");
                 Console.WriteLine("  ######   ####       ###   ####      #####             ##  ##  ##  ##    ####        ##   ###  ##     ###");
                 Console.WriteLine("                                                                                  #####");
-                Console.WriteLine(" Has caminado por días, incluso semanas, y no has sabido por dónde ir. Decides volver a casa, piensas que debiste haberte quedado hasta que encuentras un cartel que dice ‘Guarida del [Dragón Guerrero Psíquico Ancestral]’ a 20km de distancia, quiere conocerte.’ y piernas ‘¡Los dioses están de mi lado!’.");
+                Console.WriteLine(" Has caminado por días, incluso semanas, y no has sabido por dónde ir. Decides volver a casa, piensas que debiste haberte quedado hasta que encuentras un cartel que dice ‘Guarida del [Dragón Guerrero Psíquico Ancestral]’ a 20km de distancia, quiere conocerte.’ y piensas ‘¡Los dioses están de mi lado!’.");
                 Console.WriteLine(" Ahora has llegado a tu verdadero camino. Has encontrado la entrada de la cueva del [Dragón Guerrero Psíquico Ancestral]. Pero… ¡OH NO! Un guerrero esquelético se encuentra custodiando la entrada. Se encuentra temblando, como lo haría una criatura esquelética. ¿Qué harás?");
                 Console.WriteLine(" Golpearlo. [1]");
                 Console.WriteLine(" Darle tu capa. [2]");
@@ -203,6 +203,7 @@ namespace ultraKnight
                         Console.WriteLine(" Gracias por jugar.");
                         Console.WriteLine(" Este juego fue desarrollado, escrito y diseñado por: Matías Otamendi Moreno.");
                         Console.ReadKey();
+                        Console.Clear();
                     }
 
 
