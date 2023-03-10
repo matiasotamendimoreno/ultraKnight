@@ -1,0 +1,8 @@
+C:\ultraKnight\ultraKnight\ultraKnight\bin\Debug\ultraKnight.exe.config
+C:\ultraKnight\ultraKnight\ultraKnight\bin\Debug\ultraKnight.exe
+C:\ultraKnight\ultraKnight\ultraKnight\bin\Debug\ultraKnight.pdb
+C:\ultraKnight\ultraKnight\ultraKnight\obj\Debug\ultraKnight.csproj.AssemblyReference.cache
+C:\ultraKnight\ultraKnight\ultraKnight\obj\Debug\ultraKnight.csproj.SuggestedBindingRedirects.cache
+C:\ultraKnight\ultraKnight\ultraKnight\obj\Debug\ultraKnight.csproj.CoreCompileInputs.cache
+C:\ultraKnight\ultraKnight\ultraKnight\obj\Debug\ultraKnight.exe
+C:\ultraKnight\ultraKnight\ultraKnight\obj\Debug\ultraKnight.pdb
